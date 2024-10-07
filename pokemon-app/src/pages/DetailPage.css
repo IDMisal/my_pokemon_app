@@ -1,0 +1,48 @@
+.pokemon-detail {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+  }
+  
+  .pokemon-detail img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .pokemon-detail h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .pokemon-detail .abilities,
+  .pokemon-detail .stats {
+    margin: 20px 0;
+  }
+  
+  .pokemon-detail .ability,
+  .pokemon-detail .stat {
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    background-color: #c0c0c0;
+    color: white;
+    border-radius: 5px;
+  }
+  .home-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .home-button:hover {
+    background-color: #0056b3;
+  }
